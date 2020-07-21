@@ -26,12 +26,15 @@ body{
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+
 /*убираем точки*/
     .list{
+        padding:0;
+        margine:0;
         list-style: none;
     }
 
-.nav-container{
+.container{
     width:1230;
     padding-left:15px;
     padding-right:15px;
@@ -59,7 +62,20 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
+
 /* меню */
+.site-nav-item{
+    display: inline-block;
+    margin-right:40px;
+}
+
+.contact-nav-item{
+    display: inline-block;
+    margin-left: auto;
+}
+
+
 .menu-link{
     font-weight: 500;
     line-height: 1.14;
@@ -92,6 +108,7 @@ body{
 
 /* заголовок шапки */
 .hero-title{ 
+    margin-top: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -100,13 +117,15 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 /* фон шапки */
 .hero{
-    width:1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: rgba(47, 48, 58, 0.8);  
+    width: 1600px;
+    margin-top: 0;  
     outline: 2px solid tomato; 
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);  
+ 
 }
 /* кнопка в шапке */
 .btn{
@@ -123,6 +142,12 @@ body{
     background-color: var(--primary-background-color);
     text-decoration: none;
 }
+
+.features{
+margin-top: 0;
+margin-bottom: 0;
+}  
+
 /* загаловки */
 .features-title, .work-title, .about-us-title, .clients-title{
     color: var(--title-text-color); 
@@ -144,6 +169,7 @@ body{
     color: var(--primary-text-color);
     line-height: 1.71;
 }
+
 /*содержание чем занимаемся*/
 .work-description{
     font-weight: 700;
