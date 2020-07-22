@@ -35,7 +35,7 @@ body{
     }
 
 .container{
-    width:1230;
+    width:1170px;
     padding-left:15px;
     padding-right:15px;
     margin:0 auto;
@@ -45,6 +45,7 @@ body{
 
 /* логотип */
 .logo{
+    display:inline-block;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -65,18 +66,32 @@ body{
 
 
 /* меню */
-.site-nav-item{
-    display: inline-block;
-    margin-right:40px;
+
+.main-nav, .navigation, .site-nav, .contacts-nav{
+    display:flex;
+    align-items: center;
 }
 
-.contact-nav-item{
-    display: inline-block;
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+
+.contacts{
     margin-left: auto;
 }
 
+.logo{
+    margin-right: 85px;
+}
+
+.contacts-nav .item + .item{
+margin-left: 30px;
+}
+
+
 
 .menu-link{
+    display: block;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
