@@ -17,6 +17,14 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    margin: 0;
+}
+
+h1, h2, h3, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 body{
     font-family: Roboto, sans-serif;
@@ -40,6 +48,7 @@ body{
     padding-right:15px;
     margin:0 auto;
     outline:2px solid red; 
+    background-color: red;
 }
 
 
@@ -88,8 +97,6 @@ body{
 margin-left: 30px;
 }
 
-
-
 .menu-link{
     display: block;
     font-weight: 500;
@@ -124,6 +131,7 @@ margin-left: 30px;
 /* заголовок шапки */
 .hero-title{ 
     margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -158,19 +166,23 @@ margin-left: 30px;
     text-decoration: none;
 }
 
-.features{
-margin-top: 0;
-margin-bottom: 0;
-}  
+section{
+    padding-top: 94px;
+}
+
+
 
 /* загаловки */
 .features-title, .work-title, .about-us-title, .clients-title{
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--title-text-color); 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center; 
 }
+
 /* подзагаловки особенности */
 .features-subtitle{
     color: var(--title-text-color); 
@@ -181,6 +193,7 @@ margin-bottom: 0;
 }
 /*содержание особенности */
 .features-description {
+    margin-top: 10px;
     color: var(--primary-text-color);
     line-height: 1.71;
 }
