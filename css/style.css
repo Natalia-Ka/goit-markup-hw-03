@@ -48,7 +48,6 @@ body{
     padding-right:15px;
     margin:0 auto;
     outline:2px solid red; 
-    background-color: red;
 }
 
 
@@ -168,6 +167,7 @@ margin-left: 30px;
 
 .section{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -200,6 +200,7 @@ margin-left: 30px;
 
 /*содержание чем занимаемся*/
 .work-description{
+    margin-top: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
