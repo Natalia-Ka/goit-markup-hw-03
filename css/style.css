@@ -30,7 +30,7 @@ body{
 /*убираем точки*/
     .list{
         padding:0;
-        margine:0;
+        margin: 0;
         list-style: none;
     }
 
