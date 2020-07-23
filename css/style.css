@@ -80,6 +80,11 @@ body{
     align-items: center;
 }
 
+.navigation{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
 .site-nav .item:not(:last-child){
     margin-right: 50px;
 }
@@ -90,6 +95,8 @@ body{
 
 .logo{
     margin-right: 85px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .contacts-nav .item + .item{
@@ -185,6 +192,7 @@ margin-left: 30px;
 
 /* подзагаловки особенности */
 .features-subtitle{
+    margin-top: 10px;
     color: var(--title-text-color); 
     font-size: 14px;   
     font-weight: 700;
@@ -197,6 +205,55 @@ margin-left: 30px;
     color: var(--primary-text-color);
     line-height: 1.71;
 }
+
+.features-list{
+    display:flex;
+}
+
+.features-list .item{
+  width:270px;  
+}
+
+.features-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
+.work-list{
+    display:flex;
+}
+
+.work-list .item{
+    width:370px;
+}
+
+.work-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
+.about-us-list{
+    display:flex;
+}
+
+.about-us-list .item{
+    width: 94px;
+}
+
+.about-us-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
+.client-list{
+    display:flex;
+}
+
+.client-list .item{
+    width: 170px;
+}
+
+.client-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
 
 /*содержание чем занимаемся*/
 .work-description{
@@ -257,6 +314,23 @@ margin-left: 30px;
     line-height: 1.14;
     text-transform: uppercase; 
     color: var(--primary-white-color);
+}
+
+.footer{
+    display:flex;
+}
+
+.footer-newsletter{
+    margin-left:auto;
+}
+
+.footer-sm, .footer-newsletter{
+    padding-top:72px;
+}
+
+.footer-address{
+    padding-top:60px;
+    margin-right: 69px;
 }
 
 /* портфолио - фильтры */
