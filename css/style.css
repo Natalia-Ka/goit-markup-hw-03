@@ -327,13 +327,17 @@ margin-left: 30px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-right: 69px;
-    align-items: center;
+    vertical-align: middle;
 }
 
 .footer-sm, .footer-newsletter{
     padding-top:72px;
     padding-bottom: 72px;
-    align-items: center;
+    vertical-align: middle;
+}
+
+.footer-address{
+    margin-top: 20px;
 }
 
 .footer-newsletter{
