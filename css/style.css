@@ -235,7 +235,7 @@ margin-left: 30px;
 }
 
 .about-us-list .item{
-    width: 94px;
+    width: 270px;
 }
 
 .about-us-list .item:not(:last-child){
@@ -287,6 +287,7 @@ margin-left: 30px;
 }
 /* цвет логотипа 2 часть -подвал */
 .logo-footer{
+    display: inline-block;
     color: var(--primary-white-color);
     font-family: Raleway;
     font-weight: 700;
@@ -295,6 +296,8 @@ margin-left: 30px;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
+
 /* адрес подвал */
 .footer-address{
     line-height: 1.71;
@@ -320,17 +323,21 @@ margin-left: 30px;
     display:flex;
 }
 
-.footer-newsletter{
-    margin-left:auto;
+.footer-log-address{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 69px;
+    align-items: center;
 }
 
 .footer-sm, .footer-newsletter{
     padding-top:72px;
+    padding-bottom: 72px;
+    align-items: center;
 }
 
-.footer-address{
-    padding-top:60px;
-    margin-right: 69px;
+.footer-newsletter{
+    margin-left:auto;
 }
 
 /* портфолио - фильтры */
