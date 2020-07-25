@@ -321,14 +321,27 @@ margin-left: 30px;
 /* постоянные клиенты */
 .client-list{
     display:flex;
+    justify-content: space-between;
 }
 
-.client-list .item{
-    width: 170px;
+.client-list .item-1{
+    width: 44.27px;
 }
-
-.client-list .item:not(:last-child){
-    margin-right: 30px;
+.client-list .item-2{
+    width: 40px;
+}
+.client-list .item-3{
+    width: 41px;
+}
+.client-list .item-4{
+    width: 79.66px;
+    color: #AFB1B8;
+}
+.client-list .item-5{
+    width: 59px;
+}
+.client-list .item-6{
+    width: 88.48px;
 }
 
 /* фон подвал */
@@ -345,9 +358,9 @@ margin-left: 30px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    margin-bottom: 20px;
 }
-
-
 /* адрес подвал */
 .footer-address{
     line-height: 1.71;
@@ -373,26 +386,30 @@ margin-left: 30px;
     display:flex;
 }
 
-.footer-log-address{
+.footer{
     padding-top: 60px;
-    padding-bottom: 60px;
-    margin-right: 69px;
-    vertical-align: middle;
-}
-
-.footer-sm, .footer-newsletter{
-    padding-top:72px;
-    padding-bottom: 72px;
-    vertical-align: middle;
-}
+    padding-bottom: 60px;  
 
 .footer-address{
-    margin-top: 20px;
+    margin-right: 69px;
 }
 
-.footer-newsletter{
-    margin-left:auto;
+
+.footer-social{
+    display:flex;
 }
+
+.footer-social .item{
+    width: 44px;
+    margin-left: 69px;
+}
+
+
+/* .footer-newsletter{
+    display:flex;
+} */
+
+
 
 /* портфолио - фильтры */
 .portfolio-filters{
