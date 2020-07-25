@@ -438,15 +438,9 @@ margin-left: 30px;
     margin-right: 8px;
 }
 
-.portfolio-pictures{
-    margin-top: 50px;
-}
-
 /* портфолио - загаловок */
 .portfolio-title{
-    display: inline-block;
     margin-top: 20px;
-    border: 24px; 
 
     font-weight: 700;
     font-size: 18px;
@@ -460,6 +454,12 @@ margin-left: 30px;
     line-height: 1.87;
 }
 
+.border{
+    display: inline-block;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
 
 .portfolio-projects{
     display:flex;
@@ -471,7 +471,11 @@ margin-left: 30px;
 .portfolio-projects .item{
     width: 370px;
     margin-right: 15px;
+    margin-top: 50px;
+    background: var(--primary-white-color);
+    border: 1px solid #EEEEEE;
 }
+
 .portfolio-projects .item:nth-child(3n){
     margin-right: 0;
 }
