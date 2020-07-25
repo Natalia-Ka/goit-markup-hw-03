@@ -1,3 +1,14 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+
 :root{
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -8,20 +19,11 @@
 }
 
 
-html{
-    box-sizing: border-box;
-}
-*
-*::before,
-*::after{
-    box-sizing: inherit;
-}
-
 body{
     margin: 0;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, h4, p{
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -84,9 +86,9 @@ body{
     align-items: center;
 }
 
-.navigation{
-    padding-bottom: 32px;
-    padding-top: 32px;
+.main-nav{
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .site-nav .item:not(:last-child){
@@ -99,8 +101,6 @@ body{
 
 .logo{
     margin-right: 85px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .contacts-nav .item + .item{
@@ -163,10 +163,11 @@ margin-left: 30px;
 /* кнопка в шапке */
 .btn{
     display:inline-block;
-    border-radius: 4px;
     padding:10px 32px;
     min-width: 200px;
+    border-radius: 4px;
     text-align: center;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -239,7 +240,6 @@ margin-left: 30px;
 
 /*содержание чем занимаемся*/
 .work-description{
-    margin-top: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -267,6 +267,8 @@ margin-left: 30px;
     line-height: 1.18;
     text-align: center;   
     color: var(--title-text-color);
+
+    margin-bottom: 10px;
 }
 /*содержание секции наша команда*/
 .about-us-description{
@@ -274,6 +276,12 @@ margin-left: 30px;
     line-height: 1.18;
     text-align: center; 
     color: var(--primary-text-color);
+
+    margin-bottom: 16px;
+}
+
+.about-us-picture{
+    margin-bottom: 30px;
 }
 
 .about-us-list{
@@ -282,12 +290,33 @@ margin-left: 30px;
 
 .about-us-list .item{
     width:270px;
+    background: var(--primary-white-color);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .about-us-list .item:not(:last-child){
     margin-right: 30px;
 }
 
+.about-us-sm{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.about-us-sm .item{
+    width: 44px;
+}
+
+.about-us-sm .item:not(:last-child){
+    margin-right: 10px;
+}
+
+.sm{
+    text-decoration: none;
+}
 
 /* постоянные клиенты */
 .client-list{
