@@ -30,6 +30,8 @@ h1, h2, h3, h4, p{
 
 img{
     display: block;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 .container{
@@ -375,10 +377,13 @@ margin-left: 30px;
 }
 /* призыв к действию - подвал  */
 .footer-c2a{
+    display: inline-block;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase; 
     color: var(--primary-white-color);
+
+    margin-bottom: 20px;
 }
 
 .footer{
@@ -392,26 +397,20 @@ margin-left: 30px;
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;  
-
-.footer-address{
-    display: inline-block;
-    margin-right: 69px;
 }
 
-
 .footer-social{
-    display:flex;
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .footer-social .item{
     width: 44px;
-    margin-left: 69px;
 }
 
-
-/* .footer-newsletter{
-    display:flex;
-} */
+.footer-social .item:not(:last-child){
+    margin-right: 10px;
+}
 
 
 
