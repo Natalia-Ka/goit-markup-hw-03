@@ -436,14 +436,17 @@ margin-left: 30px;
 
 .portfolio-filters .item:not(:last-child){
     margin-right: 8px;
-    margin-bottom: 50px;
+}
+
+.portfolio-pictures{
+    margin-top: 50px;
 }
 
 /* портфолио - загаловок */
 .portfolio-title{
-
+    display: inline-block;
     margin-top: 20px;
-    margin-bottom: 4px;
+    border: 24px; 
 
     font-weight: 700;
     font-size: 18px;
@@ -456,6 +459,7 @@ margin-left: 30px;
     font-size: 16px;
     line-height: 1.87;
 }
+
 
 .portfolio-projects{
     display:flex;
@@ -470,4 +474,8 @@ margin-left: 30px;
 }
 .portfolio-projects .item:nth-child(3n){
     margin-right: 0;
+}
+
+.portfolio-description{
+    display: none;
 }
