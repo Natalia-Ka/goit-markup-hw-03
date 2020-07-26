@@ -142,6 +142,33 @@ margin-left: 30px;
     color: var(--accent-color)
 }
 
+/* меню контакты - имейл */
+.mail::before{
+    display: inline-block;
+    content:"";
+    width: 16px;
+    height: 11.2px;
+    margin-right: 10px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/envelope.svg");
+}
+
+/* меню контакты - телефон */
+.phone::before{
+    display: inline-block;
+    content:"";
+    width: 10px;
+    height: 14.94px;
+    margin-right: 9.83px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url("../images/smartphone.svg");
+}
+
+
 /* заголовок шапки */
 .hero-title{ 
     margin-top: 0px;
