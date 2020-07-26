@@ -335,6 +335,9 @@ margin-left: 30px;
     margin-bottom: 10px;
 }
 /*содержание секции наша команда*/
+.about-us{
+    background-color:#F5F4FA;
+}
 .about-us-description{
     font-size: 16px;
     line-height: 1.18;
@@ -354,7 +357,7 @@ margin-left: 30px;
 }
 
 .about-us-list .item{
-    width:270px;
+    width: 270px;
     background: var(--primary-white-color);
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
@@ -366,9 +369,10 @@ margin-left: 30px;
 
 .about-us-sm{
     display:flex;
+    height: 44px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .about-us-sm .item{
@@ -390,7 +394,7 @@ margin-left: 30px;
 }
 
 .client-list .item-1{
-    width: 44.27px;
+    width: 44.27px;  
 }
 .client-list .item-2{
     width: 40px;
@@ -400,7 +404,6 @@ margin-left: 30px;
 }
 .client-list .item-4{
     width: 79.66px;
-    color: #AFB1B8;
 }
 .client-list .item-5{
     width: 59px;
@@ -427,6 +430,17 @@ margin-left: 30px;
     margin-bottom: 20px;
 }
 /* адрес подвал */
+
+.footer-address-contacts{
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.footer-address-contacts{
+    display: inline-block;
+    margin-top: 9px;
+}
+
 .footer-address{
     line-height: 1.71;
     color: var(--primary-white-color); 
@@ -465,11 +479,64 @@ margin-left: 30px;
 
 .footer-social{
     display: flex;
-    margin-bottom: 100px;
+    height: 44px;
+    flex-wrap: wrap;  
 }
 
 .footer-social .item{
     width: 44px;
+}
+
+.instagram{
+    display: inline-block;
+    content:"";
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/instagram-footer.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color:rgba(255, 255, 255, 0.1);
+    background-position: center;
+    border-radius: 50%;
+}
+
+.twitter{
+    display: inline-block;
+    content:"";
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/twitter-footer.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color:#2196F3;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.facebook{
+    display: inline-block;
+    content:"";
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/facebook-footer.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color:rgba(255, 255, 255, 0.1);
+    background-position: center;
+    border-radius: 50%;
+}
+
+.linkedin{
+    display: inline-block;
+    content:"";
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/linkedin-footer.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color:rgba(255, 255, 255, 0.1);
+    background-position: center;
+    border-radius: 50%;
 }
 
 .footer-social .item:not(:last-child){
