@@ -367,18 +367,6 @@ margin-left: 30px;
     margin-right: 30px;
 }
 
-.about-us-sm{
-    display:flex;
-    height: 44px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 24px;
-}
-
-.about-us-sm .item{
-    width: 44px;
-}
-
 .about-us-sm .item:not(:last-child){
     margin-right: 10px;
 }
@@ -386,15 +374,50 @@ margin-left: 30px;
 .sm{
     text-decoration: none;
 }
+
+.about-us-sm{
+    display: flex;
+    height: 44px;
+    flex-wrap: wrap;  
+    padding-bottom: 24px;
+}
+
+.about-us-sm .item{
+    width: 44px;
+}
+
+.about-us-instagram{
+    display: inline-block;
+    content:"";
+    width: 44px;
+    height: 44px;
+    background-image: url("../images/instagram-2.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: var(--accent-color);
+    background-position: center;
+    border-radius: 50%;
+}
 /* постоянные клиенты */
 .client-list{
     display:flex;
     justify-content: space-between;
 }
 
-.client-list .item-1{
-    width: 44.27px;  
+
+.border{
+    display: inline-block;
+    width: 170px;
+    height: 90px;
+    border-color:rgba(255, 255, 255, 0.1); 
+    border: 1px solid #AFB1B8;  
+    border-radius: 4px;
 }
+
+.client-list .item-1{
+    width: 44.27px; 
+}
+
 .client-list .item-2{
     width: 40px;
 }
