@@ -473,6 +473,7 @@ margin-left: 30px;
 
 /* фон подвал */
 .footer{
+    display: flex;
     background-color: #2F303A;
 }
 /* цвет логотипа 2 часть -подвал */
@@ -493,26 +494,29 @@ margin-left: 30px;
 .footer-address-contacts{
     display: inline-block;
     margin-top: 9px;
-}
-
-.footer-address-contacts{
-    display: inline-block;
-    margin-top: 9px;
-}
-
-.footer-address{
-    margin-right:69px;
-    line-height: 1.71;
-    color: var(--primary-white-color); 
-    font-style: normal; 
-}
-/* адрес контактные данные -подвал */
-.footer-address-contacts{
     font-style: normal;
     line-height: 1.71;  
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+
+.footer-log-address{
+    width: 270px;
+    margin-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.footer-address{
+    /* margin-right:69px; */
+    line-height: 1.71;
+    color: var(--primary-white-color); 
+    font-style: normal; 
+}
+
+
+
 /* призыв к действию - подвал  */
 .footer-c2a{
     display: inline-block;
@@ -524,21 +528,14 @@ margin-left: 30px;
 }
 
 .footer-sm{
+    width: 270px;
+    margin-right: 30px;
     padding-top: 72px;
 }
 
-.footer{
-    display:flex;
-}
-
-.footer-log-address{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
 .footer-social{
     display: flex;
+    align-items: center;
     height: 44px;
     flex-wrap: wrap;  
 }
