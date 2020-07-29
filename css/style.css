@@ -382,9 +382,9 @@ margin-left: 30px;
     justify-content: center;  
 }
 
-/* .about-us-sm .item-sm{
+.about-us-sm .item-sm{
     width: 44px;
-} */
+}
 
 .about-us-sm .item-sm:not(:last-child){
     margin-right: 10px;
