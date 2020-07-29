@@ -636,10 +636,6 @@ margin-left: 30px;
     margin-right: 8px;
 }
 
-.portfolio-projects .item{
-    padding-bottom: 20px;
-}
-
 /* портфолио - загаловок */
 .portfolio-title{
     padding-left:24px;
@@ -685,6 +681,7 @@ margin-left: 30px;
     border-bottom: 1px solid #EEEEEE; 
     border-top: none;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .portfolio-projects .item:nth-child(3n){
