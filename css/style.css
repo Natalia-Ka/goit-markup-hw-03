@@ -377,13 +377,11 @@ margin-left: 30px;
 
 .about-us-sm{
     display:flex;
-    height: 44px;
-    flex-wrap: wrap;
     justify-content: center;  
 }
 
 .about-us-sm .item-sm{
-    width: 44px;
+    width: 20x;
 }
 
 .about-us-sm .item-sm:not(:last-child){
@@ -537,7 +535,6 @@ margin-left: 30px;
 .footer-social{
     display: flex;
     height: 44px;
-    flex-wrap: wrap;  
 }
 
 .footer-social .item{
