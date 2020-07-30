@@ -461,7 +461,7 @@ margin-left: 30px;
 }
 
 .clients-border{
-    display: inline-block;
+    display: block;
     width: 170px;
     height: 90px;
     border-color:rgba(255, 255, 255, 0.1); 
@@ -477,7 +477,7 @@ margin-left: 30px;
 }
 /* цвет логотипа 2 часть -подвал */
 .logo-footer{
-    display: inline-block;
+    display: block;
     color: var(--primary-white-color);
     font-family: Raleway;
     font-weight: 700;
@@ -491,7 +491,7 @@ margin-left: 30px;
 /* адрес подвал */
 
 .footer-address-contacts{
-    display: inline-block;
+    display: block;
     margin-top: 9px;
     font-style: normal;
     line-height: 1.71;  
@@ -518,7 +518,7 @@ margin-left: 30px;
 
 /* призыв к действию - подвал  */
 .footer-c2a{
-    display: inline-block;
+    display: block;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase; 
